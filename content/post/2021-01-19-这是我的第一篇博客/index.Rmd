@@ -1,0 +1,20 @@
+---
+title: 这是我的第一篇博客
+author: Wxdong
+date: '2021-01-19'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+description: ''
+image: ''
+---
+
+# 今天的计划
+* 完成网站的搭建
+* 学会github，netlify基本操作
+
+推荐看书《娱乐至死》
+
+***
+> nothing is imposible. ——anonymity
