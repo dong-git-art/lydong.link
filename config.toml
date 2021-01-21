@@ -14,9 +14,9 @@ home = ["HTML", "RSS", "Algolia"]
 
 [params]
   header_image = "img/home-bg-jeep.jpg"
-  SEOTitle = "董文勋的网站 | Dongwenxun Website"
-  description = "董文勋，学生，开源爱好者，生活探险家 | 这里是 董文勋 的网站，与你一起发现更大的世界。"
-  keyword = "董文勋, dongwenxun, Dongwenxun, 董文勋的网络日志, 董文勋的博客, Dongwenxun, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice"
+  SEOTitle = "菠萝志"
+  description = "董文勋，学生，开源爱好者，生活探险家 | 这里是董文勋的网站，与你一起发现更大的世界。"
+  keyword = "董文勋, dongwenxun, Dongwenxun, 董文勋的网络日志, 董文勋的博客, Dongwenxun, 博客, 个人网站, 互联网, Web, 云原生"
   slogan = "路在脚下，心向远方"
 
   image_404 = "img/404-bg.jpg"
@@ -35,9 +35,9 @@ home = ["HTML", "RSS", "Algolia"]
   algolia_apiKey = ""
 
   # Sidebar settings
-  sidebar_about_description = "Software Developer, Open Source Enthusiast and Life Adventurer"
+  sidebar_about_description = "Life Adventurer"
   #sidebar_avatar = "img/avatar-zhaohuabing.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
-  sidebar_avatar = "img/zhaohuabing.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar_avatar = "img/dongwenxun.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
 
   featured_tags = true 
   featured_condition_size = 1 
@@ -64,7 +64,7 @@ home = ["HTML", "RSS", "Algolia"]
 
   [params.social]
   rss            = true 
-  email          = "youremail@gmail.com"
+  email          = "15887641398@126.com"
   #facebook      = "full profile url in facebook"
   #googleplus    = "full profile url in googleplus"
   #twitter       = "full profile url in twitter"
@@ -83,8 +83,8 @@ home = ["HTML", "RSS", "Algolia"]
   #git           = "full profile url for git user"
   
   [[params.friend_link]]
-  title = "Linda的博客"
-  href =  "https://zhaozhihan.com"
+  title = "Wxdong的博客"
+  href =  "https://www.lydong.link"
 
   [[params.bookmark_link]]
   title =  "Martin Fowler"
