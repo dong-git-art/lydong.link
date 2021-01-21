@@ -1,0 +1,54 @@
+---
+title: 「Blogdown+hugo+github+netlify+阿里云/腾讯云」搭建静态网页步骤
+author: 董文勋
+date: '2021-01-21'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+description: ''
+image: ''
+---
+
+<script src="index_files/header-attrs/header-attrs.js"></script>
+<link href="index_files/anchor-sections/anchor-sections.css" rel="stylesheet" />
+<script src="index_files/anchor-sections/anchor-sections.js"></script>
+
+
+<div id="搭建个人博客步骤简单汇总" class="section level1">
+<h1>搭建个人博客步骤简单汇总</h1>
+<hr />
+<div id="准备工作" class="section level2">
+<h2>准备工作</h2>
+<ul>
+<li>安装R/Rtudio/Git/Hugo</li>
+<li>阿里云/腾讯云购买自己心仪的域名并解析，云服务器</li>
+<li>git简单命令（建库与托管）</li>
+</ul>
+<hr />
+</div>
+<div id="开始" class="section level2">
+<h2>开始</h2>
+<p>1.安装blogdown、hugo,打开Rstudio，键入命令：</p>
+<p><strong>install.packages(“blogdown”)</strong></p>
+<p><strong>blogdown::install_hugo()</strong></p>
+<p>2.新建一个Rproject</p>
+<p>3.&lt;Hugo主题页选择主题，复制githubUserName/githubRepository
+&gt; <a href="https://themes.gohugo.io/" class="uri">https://themes.gohugo.io/</a></p>
+<p>4.修改网页内容，运行<strong><em>blogdown::serve_site()</em></strong>本地预览</p>
+<p>5.github创建仓库，设置.ignore文件</p>
+<p>6.git进行上传、同步</p>
+<ul>
+<li>绑定github-ssh</li>
+</ul>
+<p><strong><em>cd 项目目录</em></strong></p>
+<p><strong><em>git init</em></strong></p>
+<p><strong><em>git add .</em></strong></p>
+<p><strong><em>git commit -m "备注“</em></strong></p>
+<p><strong><em>git push -u origin master</em></strong>(master为分支名)</p>
+<p>7.netlify进行github部署(build)</p>
+<p>8.域名解析——阿里云</p>
+<p>9.SSL证书</p>
+<p>10.等待一定时间后可以进行访问(可能由于网络出口原因，有时必须科学上网)</p>
+</div>
+</div>
