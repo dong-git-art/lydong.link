@@ -1,9 +1,14 @@
 ---
-title: "2021 05 08 无限可能 吉姆奎克认为的4个反派"
-date: 2021-05-08T23:14:14+08:00
-draft: true
+title: Four Digital Villians 
+author: wxdong
+date: '2021-05-09'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+description: ''
+image: ''
 ---
-
  **<font color='red'>在提升思考能力、专注力、学习能力和成长能力乃至创造无限可能的道路上，奎克认为存在4个反派：</font>**
 
 * 一是**<font color='cornflowerblue'>数字洪流(digital deluge)</font>**
